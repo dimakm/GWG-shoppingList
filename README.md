@@ -4,9 +4,7 @@ This project is about creating a Javascript Shopping List where we can add items
 
 
 ## Learning Git and Github
-If you are new to Git and Github you need to learn them, use the links below:
-
-> #### This is important,  if you plan to contribute code to the project.
+If you are new to Git and Github you need to learn them, use the links below you'll need them to learn using github:
 
 
 ### Git and GitHub Learning Resources
