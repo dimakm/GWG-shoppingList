@@ -34,7 +34,7 @@ JavaScript:
 ```
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
-(Dima Kroma)  | @infoe8o      |  @dimaKroma  |  (http://www.dimakroma.com)
+(Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
 ```
 
 CSS:
@@ -42,7 +42,7 @@ CSS:
 ```
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
-(Dima Kroma)  | @infoe8o      |  @dimaKroma  |  (http://www.dimakroma.com)
+(Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
 ```
 
 HTML:
@@ -50,7 +50,7 @@ HTML:
 ```
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
-(Dima Kroma)  | @infoe8o      |  @dimaKroma  |  (http://www.dimakroma.com)
+(Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
 ```
 
 
