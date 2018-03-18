@@ -32,25 +32,25 @@ Add your name under the part you want to work on, then send a pull request so I 
 JavaScript:
 -------------------------
 ```
-Name         | Name Forum @ | Slack @ |A Link to your website (optional)
------        | -----        | -----   | -----
-(your name)  | (your @)     | your @  |  link
+Name          | Name Forum @    | Slack @      |A Link to your website (optional)
+-----         | -----           | -----        | -----
+(Dima Kroma)  | @infoe8o      |  @dimaKroma  |  (http://www.dimakroma.com)
 ```
 
 CSS:
 -------------------------
 ```
-Name         | Name Forum @ | Slack @ |A Link to your website (optional)
------        | -----        | -----   | -----
-(your name)  | (your @)     | your @  |  link
+Name          | Name Forum @    | Slack @      |A Link to your website (optional)
+-----         | -----           | -----        | -----
+(Dima Kroma)  | @infoe8o      |  @dimaKroma  |  (http://www.dimakroma.com)
 ```
 
 HTML:
 -------------------------
 ```
-Name         | Name Forum @ | Slack @ |A Link to your website (optional)
------        | -----        | -----   | -----
-(your name)  | (your @)     | your @  |  link
+Name          | Name Forum @    | Slack @      |A Link to your website (optional)
+-----         | -----           | -----        | -----
+(Dima Kroma)  | @infoe8o      |  @dimaKroma  |  (http://www.dimakroma.com)
 ```
 
 
