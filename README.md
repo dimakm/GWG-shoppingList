@@ -27,7 +27,7 @@ April 3th CSS is ready
 April 7th Javascript is working.
 
 
-Add your name under the part you want to work on, then send a pull request so I can accept it and your changes will be added here.
+Add your name under the part you want to work on, we can have more than one person under each team,then send a pull request so I can accept it and your changes will be added here.
 
 JavaScript:
 -------------------------
@@ -46,6 +46,14 @@ Name          | Name Forum @    | Slack @      |A Link to your website (optional
 ```
 
 HTML:
+-------------------------
+```
+Name          | Name Forum @    | Slack @      |A Link to your website (optional)
+-----         | -----           | -----        | -----
+(Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+```
+
+Testing:
 -------------------------
 ```
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
