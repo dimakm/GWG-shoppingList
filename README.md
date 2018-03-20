@@ -10,7 +10,6 @@ If you are new to Git and Github you need to learn them, use the links below you
 ### Git and GitHub Learning Resources
 Here's some links I got from Udacity forums:
 
-* [How to fork, make Pull Request video]. (https://www.youtube.com/watch?v=_NrSWLQsDL4) 
 * [Udacity Course: How To Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) a course
 * [Youtube: Git & GitHub Tutorial for Beginners #11 - Collaborating on GitHub](https://www.youtube.com/watch?v=MnUd31TvBoU&t=402s) 
 * [GitHub Help Guide: Forking Projects](https://guides.github.com/activities/forking/)
