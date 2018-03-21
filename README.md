@@ -10,7 +10,7 @@ If you are new to Git and Github you need to learn them, use the links below you
 ### Git and GitHub Learning Resources
 Here's some links I got from Udacity forums:
 
-* [Udacity Course: How To Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
+* [Udacity Course: How To Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) a course
 * [Youtube: Git & GitHub Tutorial for Beginners #11 - Collaborating on GitHub](https://www.youtube.com/watch?v=MnUd31TvBoU&t=402s) 
 * [GitHub Help Guide: Forking Projects](https://guides.github.com/activities/forking/)
 * [YouTube: Creating A Simple Github Pull Request](https://www.youtube.com/watch?v=rgbCcBNZcdQ) 
@@ -27,7 +27,7 @@ April 3th CSS is ready
 April 7th Javascript is working.
 
 
-Add your name under the part you want to work on, then send a pull request so I can accept it and your changes will be added here.
+Add your name under the part you want to work on, we can have more than one person under each team,then send a pull request so I can accept it and your changes will be added here.
 
 JavaScript:
 -------------------------
@@ -46,6 +46,14 @@ Name          | Name Forum @    | Slack @      |A Link to your website (optional
 ```
 
 HTML:
+-------------------------
+```
+Name          | Name Forum @    | Slack @      |A Link to your website (optional)
+-----         | -----           | -----        | -----
+(Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+```
+
+Testing:
 -------------------------
 ```
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
