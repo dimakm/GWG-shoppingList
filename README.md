@@ -10,12 +10,12 @@ If you are new to Git and Github you need to learn them, use the links below you
 ### Git and GitHub Learning Resources
 Here's some links I got from Udacity forums:
 
-* [Udacity Course: How To Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775) 
-* [Youtube: Git & GitHub Tutorial for Beginners #11 - Collaborating on GitHub](https://www.youtube.com/watch?v=MnUd31TvBoU&t=402s) 
+* [Udacity Course: How To Use Git and GitHub](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+* [Youtube: Git & GitHub Tutorial for Beginners #11 - Collaborating on GitHub](https://www.youtube.com/watch?v=MnUd31TvBoU&t=402s)
 * [GitHub Help Guide: Forking Projects](https://guides.github.com/activities/forking/)
-* [YouTube: Creating A Simple Github Pull Request](https://www.youtube.com/watch?v=rgbCcBNZcdQ) 
-* [How To Collaborate on GitHub](https://code.tutsplus.com/tutorials/how-to-collaborate-on-github--net-34267) 
-* [Git Forks and Upstreams](https://www.atlassian.com/git/articles/git-forks-and-upstreams) 
+* [YouTube: Creating A Simple Github Pull Request](https://www.youtube.com/watch?v=rgbCcBNZcdQ)
+* [How To Collaborate on GitHub](https://code.tutsplus.com/tutorials/how-to-collaborate-on-github--net-34267)
+* [Git Forks and Upstreams](https://www.atlassian.com/git/articles/git-forks-and-upstreams)
 
 
 
@@ -35,6 +35,7 @@ JavaScript:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+(Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
 ```
 
 CSS:
@@ -43,6 +44,7 @@ CSS:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+(Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
 ```
 
 HTML:
@@ -51,7 +53,8 @@ HTML:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+(Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
 ```
 
 
-Thank you 
+Thank you
