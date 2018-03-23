@@ -37,6 +37,7 @@ Name          | Name Forum @    | Slack @      |A Link to your website (optional
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
 
 (Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
+
 (Eduardo Pelaez)  | @eduardo06sp      |  @eduardo06sp  |  (https://eduardo06sp.github.io/)
 
 ```
@@ -47,7 +48,10 @@ CSS:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+
 (Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
+
+(Kimberly McCaffrey)| @Kimberly.M.McCaffrey | @QAMinn2468
 ```
 
 HTML:
@@ -56,7 +60,11 @@ HTML:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+
 (Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
+
+(Kimberly McCaffrey)| @Kimberly.M.McCaffrey | @QAMinn2468
+
 ```
 
 Testing:
@@ -65,6 +73,9 @@ Testing:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+
+(Kimberly McCaffrey)| @Kimberly.M.McCaffrey | @QAMinn2468
+
 ```
 
 
