@@ -35,7 +35,10 @@ JavaScript:
 Name          | Name Forum @    | Slack @      |A Link to your website (optional)
 -----         | -----           | -----        | -----
 (Dima Kroma)  | @infoe8o      |  @dima Kroma  |  (http://www.dimakroma.com)
+
 (Anwana Ntofon)|              |  @anwanantofon|  (https://anwanantofon.me)
+(Eduardo Pelaez)  | @eduardo06sp      |  @eduardo06sp  |  (https://eduardo06sp.github.io/)
+
 ```
 
 CSS:
