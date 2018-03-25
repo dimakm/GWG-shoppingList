@@ -1,0 +1,26 @@
+body {
+    text-align: center;
+    background-color: #FFFAF0;
+    color: #00008B;
+}
+
+
+h2 {
+    font-family: serif;
+}
+
+
+.btn {
+    background: #00008B;
+    color: #FFFAF0;
+    font-size: 18px;
+    cursor: pointer;
+    padding:5px;
+    border-radius: 25px;
+    width: 10em;
+}
+
+ul {
+  text-align: left;
+  list-style: circle;
+}
