@@ -5,6 +5,7 @@ function addListItem() {
     alert("You must enter something!");
   } else { 
 $('#myUL').append('<li>' + shoppingItem +  '</li>' ); }
+ $("#myItem").val('');
 }
 
 
