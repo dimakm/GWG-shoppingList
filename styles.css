@@ -15,11 +15,9 @@ h2 {
     color: #FFFAF0;
     font-size: 18px;
     cursor: pointer;
-    padding: 5px;
+    padding:5px;
     border-radius: 25px;
     width: 10em;
-    outline: none;
-    margin-top: 15px;
 }
 
 ul {
@@ -30,29 +28,6 @@ ul {
 ul li {
     cursor: pointer;
     position: relative;
-    padding: 4px;
-    background: #fff;
-    font-size: 18px;
-    transition: 0.2s;
-
-}
-ul li:nth-child(odd) {
-    background: #e5e5e5;
-}
-
-#inputDIV{
- width: 400px;
-    margin: auto;
-    background-color: #beige;
-    transition: 0.3s;
-    box-shadow: 2px 6px 16px 0 rgba(0,0,0,0.4);
-    border-radius: 8px;
-    padding: 20px;
-    position: fixed;
-    margin-top: 1%;
-
-}
-
     padding: 8px;
     background: #FFFAF0;
     font-size: 18px;
@@ -63,6 +38,20 @@ ul li:nth-child(odd) {
   
 }
 
+
+#inputDIV{
+ width: 400px;
+    margin: auto;
+    background-color: #FFFAF0;
+    transition: 0.3s;
+    box-shadow: 2px 6px 16px 0 rgba(0,0,0,0.4);
+    border-radius: 8px; 
+    padding-right:30px;
+    position: fixed;
+    margin-top: 1%;
+
+}
+
 .strike {
   text-decoration: line-through;
 }
@@ -70,4 +59,3 @@ ul li:nth-child(odd) {
 
 .itemDone{ 
 }
-
