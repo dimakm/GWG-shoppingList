@@ -3,21 +3,28 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Shopping List</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
-  
+
  <div id="inputDIV">
    <h2>My Shopping List</h2>
    <input type="text" id="myItem" placeholder="Item I need to buy..">
+   <select class="" name="quantity" id="quantity">
+     <option disabled selected value> -- select a quantity -- </option>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+   </select>
    <button id="add" class="btn">Add</button>
 
-<ul id="myUL">
+<ul id="myUL"></ul>
 
  </div>
 
 </body>
 </html>
-
-
