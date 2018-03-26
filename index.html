@@ -3,47 +3,28 @@
 <html>
 <head>
   <link rel="stylesheet" type="text/css" href="styles.css">
-
+  <title>Shopping List</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
+
  <div id="inputDIV">
    <h2>My Shopping List</h2>
    <input type="text" id="myItem" placeholder="Item I need to buy..">
-   <input type="number" id="theAmount" placeholder="Quantity..">
-   <span onclick="newElement()" class="btn">Add</span>
+   <select class="" name="quantity" id="quantity">
+     <option disabled selected value> -- select a quantity -- </option>
+     <option value="1">1</option>
+     <option value="2">2</option>
+     <option value="3">3</option>
+     <option value="4">4</option>
+     <option value="5">5</option>
+   </select>
+   <button id="add" class="btn">Add</button>
+
+<ul id="myUL"></ul>
+
  </div>
-
-
- <ul id="theListUL">
-
- </ul>
-
- <script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
-
-<!DOCTYPE html>
-<html>
-<head>
-  <link rel="stylesheet" type="text/css" href="styles.css">
-
-</head>
-<body>
- <div id="inputDIV">
-   <h2>My shopping List</h2>
-   <input type="text" id="myItem" placeholder="Item I need to buy.."> 
-   <input type="number" id="theAmount" placeholder="Quantity..">
-   <span onclick="newElement()" class="btn">Add</span>
- </div>
-
-
- <ul id="theListUL">
-
- </ul>
- 
- <script type="text/javascript" src="script.js"></script>
-
-</body>
-</html>
-
