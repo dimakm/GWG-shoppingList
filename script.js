@@ -4,8 +4,6 @@ $(document).ready(function() {
   function addListItem() {
     var shoppingItem = $("#myItem").val();
     var quantity = $("#quantity").val();
-    //empty option in the case that the item should not be plural (i.e. 'cheese')
-    var empty = $("#empty").val();
     //Regular expression below checks for digits, used for error checking the shoppingItem
     // \d+ checks for one or more digits and 'g' means global, checking for all occurrences of a digit
     var digits = /\d+/g;
@@ -19,7 +17,6 @@ $(document).ready(function() {
     }/* If there is any digit in the shoppingItem string, alert is called*/
 
     else {
-      //if and else-if PAIR
       if((quantity > 1 && shoppingItem.substr(shoppingItem.length - 1) == 's')) {
         shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);
         $("#myUL").append("<li>(x" + quantity + ") " + shoppingItem.toLowerCase() + " </li>" );
@@ -29,8 +26,6 @@ $(document).ready(function() {
         $("#myUL").append("<li>(x" + quantity + ") " + shoppingItem.toLowerCase() + " </li>" );
       } /* Case of there being more than one quantity and the last character IS NOT an 's', leave the shoppingItem as is */
 
-
-      //else-if PAIR
       else if(quantity == 1 && shoppingItem.substr(shoppingItem.length - 1) == 's'){
         shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);
         $("#myUL").append("<li> " + shoppingItem +  " </li>" );
@@ -39,18 +34,6 @@ $(document).ready(function() {
       else if(quantity == 1 && shoppingItem.substr(shoppingItem.length - 1) != 's'){
         $("#myUL").append("<li> " + shoppingItem +  " </li>" );
       } /* Exactly 1 quantity, and the last character IS NOT an 's', leave as is*/
-
-
-      //else-if PAIR
-      else if(empty && shoppingItem.substr(shoppingItem.length - 1) == 's'){
-        shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);
-        $("#myUL").append("<li>" + shoppingItem.toLowerCase() +  " </li>" );
-      } /* Case of it being an item like 'cheeses' and the last character IS an 's', drop the 's' */
-
-      else if(empty && shoppingItem.substr(shoppingItem.length - 1) != 's'){
-        $("#myUL").append("<li>" + shoppingItem.toLowerCase() +  " </li>" );
-      } /* Case of it being an item like 'cheese' and the last character IS NOT an 's', leave the shoppingItem as is */
-
     } // The input field has a valid shoppingItem
    $("#myItem").val();
   }
