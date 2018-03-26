@@ -1,53 +1,44 @@
+$(document).ready(function() {
+  console.log("DOMContent fully loaded.");
 
+  function addListItem() {
+    var shoppingItem = $("#myItem").val();
+    var quantity = $("#quantity").val();
+    //Regular expression below checks for digits, used for error checking the shoppingItem
+    // \d+ checks for one or more digits and 'g' means global, checking for all occurrences of a digit
+    var digits = /\d+/g;
 
+    if (shoppingItem === '') {
+      alert("You must enter something!");
+    } /* No item entered */
 
-// Create a new list item whith the amount 
-function newElement() {
-  //create new list item
-  let  li = document.createElement("li"); 
-  // assign the value in the input to shoppingItem
-  const shoppingItem = document.getElementById("myItem").value;
-  // assign the value in the quantity input to quantity
-  const quantity = document.getElementById("theAmount").value;
-   // create a string with the item and quantity
-  const inputVal = shoppingItem + ' ' + quantity  ;
-  
-  let n = document.createTextNode(inputVal);
-  li.appendChild(n); 
-  if (shoppingItem === '') { // test if the shoopping item input field is empty then show an alert
-    alert("You must enter something!");
-  } else {
-  document.getElementById("theListUL").appendChild(li);
+    else if(shoppingItem.match(digits)){
+      alert("Not an item, please try again.");
+    }/* If there is any digit in the shoppingItem string, alert is called*/
+
+    else {
+      if((quantity > 1 && shoppingItem.substr(shoppingItem.length - 1) == 's')) {
+        shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);
+        $("#myUL").append("<li>(x" + quantity + ") " + shoppingItem.toLowerCase() + " </li>" );
+      } /* More than 1 quantity, and the last character IS an 's', drop the 's'. Reassign the shoppingItem string, starting from the first character (at 0) up to and including the last character (shoppingItem.length - 1) This should be the 's', so now it becomes a singular item */
+
+      else if(quantity > 1 && shoppingItem.substr(shoppingItem.length - 1) != 's' ) {
+        $("#myUL").append("<li>(x" + quantity + ") " + shoppingItem.toLowerCase() + " </li>" );
+      } /* Case of there being more than one quantity and the last character IS NOT an 's', leave the shoppingItem as is */
+
+      else if(quantity == 1 && shoppingItem.substr(shoppingItem.length - 1) == 's'){
+        shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);
+        $("#myUL").append("<li> " + shoppingItem +  " </li>" );
+      } /* Exactly 1 quantity, and the last character IS an 's', drop the 's'.*/
+
+      else if(quantity == 1 && shoppingItem.substr(shoppingItem.length - 1) != 's'){
+        $("#myUL").append("<li> " + shoppingItem +  " </li>" );
+      } /* Exactly 1 quantity, and the last character IS NOT an 's', leave as is*/
+    } // The input field has a valid shoppingItem
+   $("#myItem").val();
   }
-  document.getElementById("myItem").value = ""; 
-  document.getElementById("theAmount").value = ""; 
 
- 
-}
-
-
-
-// Create a new list item whith the amount 
-function newElement() {
-  //create new list item
-  let  li = document.createElement("li"); 
-  // assign the value in the input to shoppingItem
-  const shoppingItem = document.getElementById("myItem").value;
-  // assign the value in the quantity input to quantity
-  const quantity = document.getElementById("theAmount").value;
-   // create a string with the item and quantity
-  const inputVal = shoppingItem + ' ' + quantity  ;
-  
-  let n = document.createTextNode(inputVal);
-  li.appendChild(n); 
-  if (shoppingItem === '') { // test if the shoopping item input field is empty then show an alert
-    alert("You must enter something!");
-  } else {
-  document.getElementById("theListUL").appendChild(li);
-  }
-  document.getElementById("myItem").value = ""; 
-  document.getElementById("theAmount").value = ""; 
-
- 
-}
-
+  $(function(){
+    $("#add").on("click", addListItem) ;
+  });
+});
