@@ -39,9 +39,7 @@ $(document).ready(function() {
   }
  
   
-   function doneBuyItem() {      /*----strike through the item when done buying it----*/
-     $(this).parent().toggleClass('strike');
- } 
+ 
 
  
   
