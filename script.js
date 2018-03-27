@@ -35,7 +35,7 @@ $(document).ready(function() {
         $("#myUL").append("<li>  <input type='checkbox' name='done' class='itemDone' /> " + shoppingItem +  " </li>" );
       } /* Exactly 1 quantity, and the last character IS NOT an 's', leave as is*/
     } // The input field has a valid shoppingItem
-   $("#myItem").val();
+   $("#myItem").val('');
   }
  
   
