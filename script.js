@@ -2,6 +2,7 @@ $(document).ready(function() {
   console.log("DOMContent fully loaded.");
 
   function addListItem() {
+		$('.itemAlert').remove();
     var shoppingItem = $("#myItem").val();
     var quantity = $("#quantity").val();
     //Regular expression below checks for digits, used for error checking the shoppingItem
@@ -9,12 +10,12 @@ $(document).ready(function() {
     var digits = /\d+/g;
 
     if (shoppingItem === '') {
-      alert("You must enter something!");
+			$('#quantity').after('<p class="itemAlert">You must enter something!</p>');
     } /* No item entered */
 
     else if(shoppingItem.match(digits)){
-      alert("Not an item, please try again.");
-    }/* If there is any digit in the shoppingItem string, alert is called*/
+			$('#quantity').after('<p class="itemAlert">Not an item, please try again.</p>');
+    }/* If there is any digit in the shoppingItem string, warning is displayed*/
 
     else {
       if((quantity > 1 && shoppingItem.substr(shoppingItem.length - 1) == 's')) {
