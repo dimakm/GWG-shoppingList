@@ -1,6 +1,40 @@
 
 <!DOCTYPE html>
-<html>
+<html><html>
+<head>
+<meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Grocery List</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+  <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Architects+Daughter">
+
+  <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+ 
+ <div id="inputDIV">
+   <h2>My Grocery List</h2>
+   <input type="text" id="myItem" placeholder="Item I need to buy..">
+      <input type="number" id="quantity" name="quantity" placeholder="Quantity"  min="1" class="quantity">
+
+   <select class="" name="unit" id="unit" placeholder="Unit">
+<!--<option disabled selected value=""> choose unit </option> -->
+     <option value="lb">lb</option>
+     <option value="kg">kg</option>
+     <option value="oz">oz</option>
+     <option value="unit">unit</option>
+     <option value="gallon">gallon</option>
+
+   </select> 
+   <button id="add" class="btn">Add</button>
+
+<ul id="myUL"></ul>
+
+ </div>
+
+</body>
+</html>
 <head>
 	<meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="styles.css">
