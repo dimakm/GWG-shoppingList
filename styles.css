@@ -2,15 +2,16 @@
 
 body {
     text-align: center;
-     background-position: center; 
+
+     background-position: center;
      background-repeat: no-repeat;
-     background-color: #2d2d2b; 
+     background-color: #2d2d2b;
      background-image: url('http://www.dimakroma.com/images/grocery.jpg');
      background-repeat:repeat ;
-    background-attachment: fixed;
-  color: #d45c5e;
-  font-family: 'Architects Daughter';
-  font-size:20px;
+     background-attachment: fixed;
+     color: #d45c5e;
+     font-family: 'Architects Daughter';
+     font-size:20px;
 }
 
 .quantity{
@@ -18,12 +19,12 @@ body {
 }
 h2 {
     font-family: 'Architects Daughter' ;
-  font-weight:bold;
+    font-weight:bold;
 }
 
 
 .btn {
-  font-family: 'Architects Daughter';
+    font-family: 'Architects Daughter';
     background: #f6851f;
     color: #fff;
     font-weight:bold;
@@ -32,12 +33,14 @@ h2 {
     padding:5px;
     border-radius: 25px;
     width: 10em;
-  margin-top:10px;
+    margin-top:10px;
+    outline: none;
 }
 
-.btn:hover{ 
+.btn:hover{
    background: #d45c5e;
-  /*fade the color for different crowsers*/
+  /*fade the color for different browsers*/
+  margin-top:10px;
   -webkit-transition: background-color 0.7s  ease-in-out;
   -moz-transition: background-color 0.7s  ease-in-out;
   -o-transition: background-color 0.7s  ease-in-out;
@@ -49,7 +52,6 @@ ul {
   text-align: left;
   list-style: none;
   color:#aae0d3;
-  
 }
 
 ul li {
@@ -62,20 +64,19 @@ ul li {
 }
 ul li:nth-child(odd) {
     background: #2d2d2b;
-  
 }
 
 #inputDIV{
- width: 410px;
+    width: 410px;
     margin: auto;
   /* background-image: url('http://www.dimakroma.com/images/grocery.jpg') ;*/
-     background-position: center; 
-      background-repeat: no-repeat;
-    background-color: #2d2d2b;    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #2d2d2b;
     transition: 0.3s;
     box-shadow: 2px 6px 16px 0 rgba(0,0,0,0.4);
-    border-radius: 8px; 
-  padding:10px;
+    border-radius: 8px;
+    padding:10px;
     padding-right:40px;
     margin-top: 1%;
 }
@@ -86,30 +87,29 @@ ul li:nth-child(odd) {
   color:#d45c5e;
 }
 
-.itemDone{ 
-  
+
+.itemDone{
+
 }
 
-.delete { 
-  font-family: 'Architects Daughter';
-  float:right;
-  cursor:pointer ;
-   display:block;
+.delete {
+    font-family: 'Architects Daughter';
+    float:right;
+    cursor:pointer ;
+    display:block;
     border-radius: 30%;
-   background: #f6851f;
+    background: #f6851f;
     color: #FFFAF0;
     text-align:center;
     text-decoration:none;
     font-size:16px;
     font-weight:bold;
-    
 }
 
-.delete:hover{ 
+.delete:hover{
    background: #d45c5e;
- -webkit-transition: background-color 0.7s  ease-in-out;
-  -moz-transition: background-color 0.7s  ease-in-out;
-  -o-transition: background-color 0.7s  ease-in-out;
-  transition: background-color 0.7s  ease-in-out;
-
+   -webkit-transition: background-color 0.7s  ease-in-out;
+   -moz-transition: background-color 0.7s  ease-in-out;
+   -o-transition: background-color 0.7s  ease-in-out;
+   transition: background-color 0.7s  ease-in-out;
 }
