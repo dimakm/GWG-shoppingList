@@ -11,11 +11,11 @@ $(document).ready(function() {
     var digits = /\d+/g;
 
     if (shoppingItem === '') {
-			$('#quantity').after('<p class="itemAlert">You must enter something !</p>');
+			$('#unit').after('<p class="itemAlert">You must enter something !</p>');
     } /* No item entered */
 
     else if(shoppingItem.match(digits)){
-			$('#quantity').after('<p class="itemAlert">Not an item, please try again .</p>');
+			$('#unit').after('<p class="itemAlert">Not an item, please try again .</p>');
     }/* If there is any digit in the shoppingItem string, warning is displayed*/
 
     else {
