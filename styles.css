@@ -10,10 +10,12 @@ body {
     background-attachment: fixed;
   color: #d45c5e;
   font-family: 'Architects Daughter';
-  font-weight:bold;
+  font-size:20px;
 }
 
-
+.quantity{
+  width:75px;
+}
 h2 {
     font-family: 'Architects Daughter' ;
   font-weight:bold;
@@ -47,6 +49,7 @@ ul {
   text-align: left;
   list-style: none;
   color:#aae0d3;
+  
 }
 
 ul li {
@@ -54,7 +57,7 @@ ul li {
     position: relative;
     padding: 8px;
     background: #474744;
-    font-size: 18px;
+    font-size: 20px;
     transition: 0.2s;
 }
 ul li:nth-child(odd) {
@@ -63,7 +66,7 @@ ul li:nth-child(odd) {
 }
 
 #inputDIV{
- width: 400px;
+ width: 410px;
     margin: auto;
   /* background-image: url('http://www.dimakroma.com/images/grocery.jpg') ;*/
      background-position: center; 
