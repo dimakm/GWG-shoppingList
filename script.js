@@ -19,23 +19,12 @@ $(document).ready(function() {
     }/* If there is any digit in the shoppingItem string, warning is displayed*/
 
     else {
-      if((quantity > 1 && shoppingItem.substr(shoppingItem.length - 1) == 's')) {
+      if((quantity >= 1)) {
       /*  shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);*/
-        $("#myUL").append("<li> <input type='checkbox' name='done' class='itemDone'/> ( " + quantity + unit + "s ) " + shoppingItem + " <button class='delete'> x </button> </li>" );
-      } /* More than 1 quantity, and the last character IS an 's', drop the 's'. Reassign the shoppingItem string, starting from the first character (at 0) up to and including the last character (shoppingItem.length - 1) This should be the 's', so now it becomes a singular item */
-
-      else if(quantity > 1 && shoppingItem.substr(shoppingItem.length - 1) != 's' ) {
-        $("#myUL").append("<li> <input type='checkbox' name='done' class='itemDone'/>( " + quantity + unit +"s ) " + shoppingItem + "  <button class='delete'> x </button> </li>" );
-      } /* Case of there being more than one quantity and the last character IS NOT an 's', leave the shoppingItem as is */
-
-      else if(quantity == 1 && shoppingItem.substr(shoppingItem.length - 1) == 's'){
-        shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);
-        $("#myUL").append("<li>  <input type='checkbox' name='done' class='itemDone'/>" + unit +" " +shoppingItem +  "<button class='delete'> x </button> </li>" );
-      } /* Exactly 1 quantity, and the last character IS an 's', drop the 's'.*/
-
-      else if(quantity == 1 && shoppingItem.substr(shoppingItem.length - 1) != 's'){
-        $("#myUL").append("<li>  <input type='checkbox' name='done' class='itemDone' /> " +  unit+" " + shoppingItem +  "<button class='delete'> x </button> </li>" );
-      } /* Exactly 1 quantity, and the last character IS NOT an 's', leave as is*/
+        $("#myUL").append("<li> <input type='checkbox' name='done' class='itemDone'/>  " + quantity + " ( "+ unit +" ) " + shoppingItem + " <button class='delete'> x </button> </li>" ); 
+      } 
+      
+     
     } // The input field has a valid shoppingItem
    $("#myItem").val('');
   }
@@ -56,4 +45,3 @@ $(document).ready(function() {
   });
   
 });
-
