@@ -2,7 +2,6 @@
 
 body {
     text-align: center;
-
      background-position: center;
      background-repeat: no-repeat;
      background-color: #2d2d2b;
@@ -112,4 +111,30 @@ ul li:nth-child(odd) {
    -moz-transition: background-color 0.7s  ease-in-out;
    -o-transition: background-color 0.7s  ease-in-out;
    transition: background-color 0.7s  ease-in-out;
+}
+
+
+/*Styles for about page*/
+.about-h2{
+    font-weight:bold;
+  font-size:20px;
+  color:#d45c5e;
+}
+
+#about-body {
+  text-align:left;
+  margin-left:20px;
+  color:#fff;
+    font-family: 'Quicksand' ;
+}
+.about-slack{
+  color:#7ad8c1;
+}  
+#about-body a {
+  color:#7ad8c1;
+  font-weight:bold;
+}
+#about-body a:hover {
+  color:#d45c5e;
+  fnot-weight:bold;
 }
