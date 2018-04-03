@@ -20,10 +20,15 @@ $(document).ready(function() {
 
     else {
       if((quantity >= 1)) {
+        if(unit === ' ') {
+            $("#myUL").append("<li> <input type='checkbox' name='done' class='itemDone'/>  " + quantity + unit + shoppingItem + " <button class='delete'> x </button> </li>" ); 
+        }
+else {
       /*  shoppingItem = shoppingItem.substr(0, shoppingItem.length - 1);*/
         $("#myUL").append("<li> <input type='checkbox' name='done' class='itemDone'/>  " + quantity + " ( "+ unit +" ) " + shoppingItem + " <button class='delete'> x </button> </li>" ); 
       } 
       
+      }
      
     } // The input field has a valid shoppingItem
    $("#myItem").val('');
