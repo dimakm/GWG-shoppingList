@@ -1,24 +1,34 @@
-
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
+
   <link rel="stylesheet" type="text/css" href="styles.css">
-  <title>Shopping List</title>
+  <title>Grocery List</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"> </script>
+ <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Architects+Daughter">
+
   <script type="text/javascript" src="script.js"></script>
 </head>
 <body>
 
  <div id="inputDIV">
-   <h2>My Shopping List</h2>
+   <h2>My Grocery List</h2>
    <input type="text" id="myItem" placeholder="Item I need to buy..">
-   <select class="" name="quantity" id="quantity">
-     <option disabled selected value> -- select a quantity -- </option>
-     <option value="1">1</option>
-     <option value="2">2</option>
-     <option value="3">3</option>
-     <option value="4">4</option>
-     <option value="5">5</option>
+      <input type="number" id="quantity" name="quantity" placeholder="Quantity"  min="1" class="quantity">
+
+   <select class="" name="unit" id="unit" placeholder="Unit">
+<!--<option disabled selected value=""> choose unit </option> -->
+     <option value=" lb">lb</option>
+     <option value=" kg">kg</option>
+     <option value=" oz">oz</option>
+     <option value=" unit">unit</option>
+     <option value=" gallon">gallon</option>
+     <option value=" dozen">dozen</option> <!--Inserted a blank unit and doz-->
+     <option value=" ">blank</option>
+	   
+
    </select>
    <button id="add" class="btn">Add</button>
 
