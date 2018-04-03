@@ -120,6 +120,12 @@ ul li:nth-child(odd) {
   font-size:20px;
   color:#d45c5e;
 }
+.about-main-title{
+    font-weight:bold;
+    color:#d45c5e;
+    text-align:center;
+  font-size:35px;
+}
 
 #about-body {
   text-align:left;
@@ -136,5 +142,5 @@ ul li:nth-child(odd) {
 }
 #about-body a:hover {
   color:#d45c5e;
-  fnot-weight:bold;
+  font-weight:bold;
 }
