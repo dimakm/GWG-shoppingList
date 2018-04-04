@@ -1,0 +1,47 @@
+
+Our first goal was to put the things we learned in GWG together to create something useful in the daily life.
+the second goal was to learn GitHub.
+
+HTML:
+------
+The html is simple, we used input fields that have the Id's #myItem for the grocery item and  #quantity for the quanitity needed .And the select option for the unit, it has the Id #unit.
+We also have a button and the UL with the id #myUL and this is where the javascript is going to add the items.
+-------------------------------------------------------------------------------------------------------
+
+The JavaScript:
+---------------
+We used Jquery in our project, the functions we wrote in the code are:
+
+addListItem()
+-------------
+After defining the variables, it checks if the input field is empty or it has a number instead of an item and gives the user a message to put an item .
+
+Now there's a shoppingItem, we have 2 if statements , the first one makes sure the quantity is >0 , the second checks the unit, if the unit is not blank it puts it in () and if it is blank then no need for the ().
+
+the ShoppingItem is added as a li inside of the html UL (we use the id #myUL to find the ul in the html) 
+When the shopping item is added, with ech item added there's alsoa checbox(to strike out the done items) and a delete button(to delete items)
+
+
+doneBuyItem() 
+--------------
+The job of this function is to toggle a CSS calss called .strike , this class is responsible of striking out the item the user already bought and make its color red.
+
+
+deleteItem()
+------------
+it hides the li that has the item in
+
+
+the last function includes what happens when we click the buttons or the checkbox:
+  $(function(){
+    $("#add").on("click", addListItem); /*when we click the button and item is added*/
+    $(document).on('click','.itemDone', doneBuyItem); /*when we click the checkbox the doneBuyItem strikes out the item and makes it red */
+     $(document).on('click','.delete', deleteItem);/*when we click the small x button next to the item the deleteItem() works */
+  });
+
+--------------------------------------------------------------------------------------------------------
+
+CSS
+------
+All the styling and classes go in the CSS .
+
