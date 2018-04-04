@@ -1,7 +1,8 @@
 
-# ShoppingList group project for (Grow With Google Scholarship - Udacity)
-Hello and welcome to the shoppinglist small project
-This project is about creating a Javascript Shopping List where we can add items to the list and then check the items we already bought, the checked item need to look different so we know it is checked. we need also the ability to delete items from the list, so it is all about Add Delete and check items.
+# My Grocery List group project for (Grow With Google Scholarship - Udacity)
+Hello and welcome to the My Grocery List small project
+This project is about creating a Javascript grocery List where we can add items to the list and then check the items we already bought, the checked item need to look different so we know it is checked. we need also the ability to delete items from the list, so it is all about Add Delete and check items.
+We'll add more features in the future.
 
 
 ## Learning Git and Github
@@ -21,11 +22,10 @@ Here's some links I got from Udacity forums:
 
 
 Tasks and deadline:
-March 25th Finish learning Git and Github basics. and discussing what we are going to do.
+March 23th Finish learning Git and Github basics. and discussing what we are going to do.
 March 26th Html wireframe ready.
-March 29 Html is ready
-April 3th CSS is ready
-April 7th Javascript is working.
+March 28 Html with CSS is ready.
+April 2th Javascript is working.
 
 
 Add your name under the part you want to work on, we can have more than one person under each team,then send a pull request so I can accept it and your changes will be added here.
