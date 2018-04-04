@@ -39,6 +39,7 @@ h2 {
 .btn:hover{
    background: #d45c5e;
   /*fade the color for different browsers*/
+  margin-top:10px;
   -webkit-transition: background-color 0.7s  ease-in-out;
   -moz-transition: background-color 0.7s  ease-in-out;
   -o-transition: background-color 0.7s  ease-in-out;
@@ -50,7 +51,6 @@ ul {
   text-align: left;
   list-style: none;
   color:#aae0d3;
-
 }
 
 ul li {
@@ -63,7 +63,6 @@ ul li {
 }
 ul li:nth-child(odd) {
     background: #2d2d2b;
-
 }
 
 #inputDIV{
@@ -87,6 +86,7 @@ ul li:nth-child(odd) {
   color:#d45c5e;
 }
 
+
 .itemDone{
 
 }
@@ -103,7 +103,6 @@ ul li:nth-child(odd) {
     text-decoration:none;
     font-size:16px;
     font-weight:bold;
-
 }
 
 .delete:hover{
@@ -112,5 +111,36 @@ ul li:nth-child(odd) {
    -moz-transition: background-color 0.7s  ease-in-out;
    -o-transition: background-color 0.7s  ease-in-out;
    transition: background-color 0.7s  ease-in-out;
+}
 
+
+/*Styles for about page*/
+.about-h2{
+    font-weight:bold;
+  font-size:20px;
+  color:#d45c5e;
+}
+.about-main-title{
+    font-weight:bold;
+    color:#d45c5e;
+    text-align:center;
+  font-size:35px;
+}
+
+#about-body {
+  text-align:left;
+  margin-left:20px;
+  color:#fff;
+    font-family: 'Quicksand' ;
+}
+.about-slack{
+  color:#7ad8c1;
+}  
+#about-body a {
+  color:#7ad8c1;
+  font-weight:bold;
+}
+#about-body a:hover {
+  color:#d45c5e;
+  font-weight:bold;
 }
